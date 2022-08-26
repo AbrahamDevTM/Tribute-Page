@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8em;
+    background-color: rgb(54, 50, 70);
+    color: rgb(187, 181, 216);
+}
+#main{
+ vertical-align: middle;
+ text-align: center;
+}
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(193, 186, 228);
+    font-style: bold;
+}
+#description{
+font-size: small;
+font-weight: 300;
+}
+#img-div{
+    width: auto;
+    height: auto;
+    margin: 8px;
+    padding: 5px;
+align-items: center;
+background-color: rgb(107, 114, 146);
+}
+#image{
+ width: auto;
+ max-width: 100%;
+ height: auto;
+ align-self: center;
+}
+#image-caption{
+    font-weight: lighter;
+    margin-top: 5px;
+}
+#tribute-info{
+    padding: 10px;
+line-height: 25px;
+text-align: center;
+color: rgb(143, 143, 168);
+}
+#tribute-link{
+    color:rgb(90, 59, 201);
+}
+#tribute-link:hover{
+color: rgb(55, 36, 100);
+    
+    transition: all 0.4s;
+}
+#tribute-link:active{
+    color: rgb(132, 37, 209);
+}
+img{
+  display: block;
+}
+cite{
+    font-weight: lighter;
+    font-style: italic;
+}
+footer, footer p{
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1em;
+}
